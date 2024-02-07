@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab1_q1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the length: ");
+            int length = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the width: ");
+            int width = int.Parse(Console.ReadLine());
+
+            int area = length * width;
+
+            Console.WriteLine("The area: " + area + "\n");
+
+        }
+        static int area(int length, int width)
+        {
+            return length * width;
+        }
+    }
+}
